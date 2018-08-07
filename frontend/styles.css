@@ -1,0 +1,109 @@
+#rioDeJaneiroToLimaBanner {
+    background-image: url("./images/rioToLima.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+#rioDeJaneiroToLimaTitle {
+    position: relative;
+    top: 50px;
+    left: 15px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#rioDeJaneiroToLimaText {
+    position: relative;
+    left: 700px;
+    width: 850px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+#londonToLondonBanner {
+    background-image: url("./images/londonToLondon.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+#londonToLondonTitle {
+    position: relative;
+    top: 50px;
+    left: 15px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#londonToLondonText {
+    position: relative;
+    left: 700px;
+    width: 850px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#birminghamToMirpurBanner {
+    background-image: url("./images/birminghamToMirpur.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+#birminghamToMirpurTitle {
+    position: relative;
+    top: 50px;
+    left: 15px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#birminghamToMirpurText {
+    position: relative;
+    left: 750px;
+    width: 850px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+header {
+    background-color: #6096db;
+    border-bottom: 1px solid #6096db;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+#BusBoardBody {
+    background-color: #6096db;
+}
+
+#departures {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}

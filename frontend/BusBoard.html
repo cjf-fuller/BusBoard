@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Departure boards</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="departures.js"></script>
+</head>
+<body id="BusBoardBody">
+<h1>BusBoard</h1>
+<form action="#" onsubmit="autoUpdateDepartures()">
+    Postcode:<br>
+    <input type="text" id="formPostcode" name="postcode">
+    <input type="submit" value="Find Next Buses">
+</form>
+<div id="httpRequestError" style="display:none">
+    <h2>Error fetching bus departures. Is the postcode correct?</h2>
+</div>
+<div id="departures">
+    <h2 id="departuresInfoDisplay">Departures will be displayed here.</h2>
+    <h3 id="busStopOneStationName"></h3>
+    <ul id="busArrivalsAtStopOne">
+    </ul>
+    <h3 id="busStopTwoStationName"></h3>
+    <ul id="busArrivalsAtStopTwo">
+    </ul>
+    <form action="longBusJourney.html">
+        <input type="submit" value="Fancy a longer journey?"/>
+    </form>
+</div>
+</body>
+</html>
